@@ -1,0 +1,2 @@
+# JalSetu
+A high-performance smart-city water management dashboard for monitoring live flow, detecting leaks, and managing distribution infrastructure with AI-driven insights.
