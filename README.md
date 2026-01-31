@@ -31,6 +31,3 @@ npm install
 
 ---
 
-Built for **SaMved Smart Governance Hackathon** 🌊
-
-
