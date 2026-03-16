@@ -1,33 +1,80 @@
+# 💧 JalSetu
+## Smart Water Distribution Management System
 
-# JalSetu 💧  
-**Smart Water Distribution Management System**
+**JalSetu** is a smart-city water infrastructure management platform designed to enable **real-time monitoring, leak detection, and intelligent water distribution management** using IoT sensors and AI-powered insights.
 
-A high-performance smart-city dashboard for monitoring live flow, detecting leaks, and managing water infrastructure using AI-driven insights.
-
----
-
-## 🚀 Features
-- Live water flow & pressure monitoring  
-- Leak detection & zone risk alerts  
-- Interactive city map  
-- Citizen complaint tracking  
-- Smart valve control  
-- AI-based anomaly detection  
+The system integrates **ESP32-based sensors, MQTT communication, and a smart web dashboard** to help municipalities monitor water pipelines, detect anomalies, and manage infrastructure efficiently.
 
 ---
 
-## 🧪 Run Locally
+# 🚀 Features
 
-### Prerequisites
-- Node.js  
-- npm  
+## 📡 Real-Time Monitoring
+- Live **water flow monitoring**
+- Real-time **pressure monitoring**
+- Zone-wise pipeline status tracking
+- Continuous sensor data updates
 
-### Setup
-1. Install dependencies  
-npm install 
-2. Create a `.env.local` file and add: GEMINI_API_KEY=your_key_here
-3. Start the app : npm run dev
+## 🚨 Leak Detection & Alerts
+- AI-based anomaly detection
+- Pressure and flow pattern analysis
+- Automatic zone risk alerts
 
+## 🗺 Interactive City Dashboard
+- Smart city map visualization
+- Zone-based infrastructure monitoring
+- Real-time analytics
+
+## 🧾 Citizen Complaint System
+- Citizens can report water issues
+- Complaint tracking dashboard
+- Maintenance workflow support
+
+## 🔧 Smart Valve Control
+- Remote valve operations
+- Smart water distribution adjustments
+- Infrastructure control from dashboard
+
+
+### Workflow
+
+1. Sensors measure **water flow and pressure**
+2. ESP32 sends the data through **MQTT protocol**
+3. Backend server processes and stores the data
+4. Dashboard visualizes the information for operators
 
 ---
 
+# 🛠 Tech Stack
+
+## Frontend
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
+
+## IoT / Embedded Systems
+- ESP32 Microcontroller
+- Arduino Firmware
+- Flow Sensors
+- Pressure Sensors
+- MQTT Communication Protocol
+
+## Backend *(Planned / In Progress)*
+- Node.js
+- Express.js
+
+## Data & AI
+- MongoDB (planned)
+- Google Gemini API (AI insights)
+
+# 🧪 Run Locally
+
+## Prerequisites
+
+Make sure you have installed:
+
+- **Node.js**
+- **npm**
+
+---
