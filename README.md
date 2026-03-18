@@ -1,4 +1,4 @@
-# 💧 JalSetu
+# 💧 JalSetu:
 ## Smart Water Distribution Management System
 
 **JalSetu** is a smart-city water infrastructure management platform designed to enable **real-time monitoring, leak detection, and intelligent water distribution management** using IoT sensors and AI-powered insights.
