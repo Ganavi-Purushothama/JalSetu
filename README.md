@@ -42,6 +42,7 @@ The system integrates **ESP32-based sensors, MQTT communication, and a smart web
 2. ESP32 sends the data through **MQTT protocol**
 3. Backend server processes and stores the data
 4. Dashboard visualizes the information for operators
+   
 
 ---
 
